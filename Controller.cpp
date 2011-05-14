@@ -206,9 +206,11 @@ void Controller::begin(bool slow) {
 	} else { 
 		cout << "It's a tie" << endl;	
 		last = TIE;
+		score = points[0];
 		firstPlayer.Signal();
 		zync.Wait();
 		last = TIE;
+		score = points[1];
 		secondPlayer.Signal();
 		zync.Wait();
 	}
