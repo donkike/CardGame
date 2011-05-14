@@ -1,0 +1,12 @@
+Player
+Controller
+*.zip
+*.tar.gz
+*.tgz
+CardGame/*
+SharedMemory.h
+SharedMemoryException.h
+SimpleSemaphore.h
+SimpleSemaphoreException.h
+ToString.h
+Trace.h
